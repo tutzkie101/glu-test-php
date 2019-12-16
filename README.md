@@ -89,7 +89,7 @@ The Tasks api can now be accessed at
 | GET      	| /tasks/get     	| Null 	|     	|       |
 | GET      	| /tasks/get/{task_id}     	| Null 	|     	|       |
 | POST      	| /tasks/store     	| application/json 	|[ { "submitters_id": int, "priority": int, "package": { "task": string, "data": object } },... ]      	|       |                    
-       |
+       
 
 
 The Process api can now be accessed at
@@ -100,7 +100,7 @@ The Process api can now be accessed at
 | GET      	| /processor/average     	| Null 	|     	|       |
 | GET      	| /processor/get     	| Null 	|     	|       |
 | POST      	| /processor/proc    	| application/json 	|[ { "name": string},... ]      	|       |                    
-       |
+       
        
 Request headers
 
